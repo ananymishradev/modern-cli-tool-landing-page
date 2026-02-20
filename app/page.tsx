@@ -72,12 +72,12 @@ export default function TerminalIDE() {
     },
   ]
 
-  const heroAsciiText = `██╗  ██╗███████╗██╗  ██╗ █████╗     ██████╗██╗     ██╗
-██║  ██║██╔════╝╚██╗██╔╝██╔══██╗   ██╔════╝██║     ██║
-███████║█████╗   ╚███╔╝ ███████║   ██║     ██║     ██║
-██╔══██║██╔══╝   ██╔██╗ ██╔══██║   ██║     ██║     ██║
-██║  ██║███████╗██╔╝ ██╗██║  ██║   ╚██████╗███████╗██║
-╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═════╝╚══════╝╚═╝`
+  const heroAsciiText = `██████╗ ██╗██╗   ██╗ █████╗ ██████╗
+██╔══██╗██║██║   ██║██╔══██╗██╔══██╗
+██████╔╝██║██║   ██║███████║██████╔╝
+██╔══██╗██║╚██╗ ██╔╝██╔══██║██╔══██╗
+██║  ██║██║ ╚████╔╝ ██║  ██║██║  ██║
+╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═╝`
 
   useEffect(() => {
     const chars = "RIVAR01010101VaR█▓▒░▄▀■□▪▫".split("")
@@ -711,8 +711,8 @@ export default function TerminalIDE() {
       <footer className="border-t border-gray-800 px-6 py-12 lg:px-12 bg-gray-950">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
-            <div className="text-gray-600 text-lg mb-4">Built for quants, by quants.</div>
-            <div className="text-gray-700 text-sm">© 2025 RiVaR. Quantify risk. Manage better.</div>
+            <div className="text-gray-600 text-lg mb-4">Open Source</div>
+            <div className="text-gray-700 text-sm">© 2026 ananymishradev</div>
           </div>
         </div>
       </footer>
